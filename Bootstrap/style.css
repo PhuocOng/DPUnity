@@ -1,0 +1,16 @@
+body {
+    background-color: #f6f6f7
+}
+
+.custom-margin {
+    margin-left: 7rem;
+}
+
+.custom-padding-for-section1 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background-color: white;
+
+
+}
+
