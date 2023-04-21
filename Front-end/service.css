@@ -1,3 +1,7 @@
+body {
+  background-color: whitesmoke;
+}
+
 .custom-card {
   border: solid 2px blue;
   border-radius: 1rem;
@@ -36,3 +40,4 @@
     font-size: 20px;
     border-radius: 30px;
 }
+

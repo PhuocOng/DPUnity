@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show all documents</title>
+</head>
+<body>
+    <h1>All Reports!</h1>
+    <ul>
+        <% for (let report of reports) { %>
+            <h3>Time: <%= report.time %></h3>
+            <h3>Date: <%= report.date %></h3>
+            <h3>Location: <%= report.location %></h3>
+            <h3>Description: <%= report.description %></h3>
+            <a href="/reports/<%=report._id%>">Go to Details</a>
+            <form action="/reports/<%=report._id%>?_method=DELETE" method="POST">
+                <button>Delete</button>
+            </form>
+            <hr>
+        <% } %>
+
+        <a href="/reports/new">Add new Report</a>
+    </ul>
+</body>
+</html>

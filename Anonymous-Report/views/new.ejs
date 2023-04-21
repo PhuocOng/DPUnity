@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating new Reports</title>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzZVIVOQSOBJj6dcwujiblHYmnfT3k3bU&libraries=places"></script>
+
+</head>
+<body>
+    <h1>Creating Reports</h1>
+    <form action="/reports" method="POST">
+        <label for="time">Report time</label>
+        <input type="time" name="time" id="time" placeholder="report time" />
+        <label for="date">Report Date</label>
+        <input type="date" id="date" name="date" placeholder="report date" />
+        <label for="location">Report Location</label>
+        <input type="text" id="location" name="location" placeholder="report location" style="width: 300px" />
+        <label for="description">Report description</label>
+        <input type="text" id="description" name="description" placeholder="report description" />
+        <button>Submit</button>
+      </form>
+      <a href="/reports">Back to All Products</a>
+
+
+    <script>
+      var input = document.getElementById('location');
+      var autocomplete = new google.maps.places.Autocomplete(input);
+    </script>
+    
+</body>
+</html>
