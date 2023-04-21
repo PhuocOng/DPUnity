@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
 
+body {
+  background-color: whitesmoke;
+}
 :root{
     --primary:#0d6efd;
     --dark: #21252f;
@@ -165,5 +168,31 @@ form .form-control {
 
 .footer-bottom {
   background-color: #242933;
+}
+
+
+
+
+.image-container {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.image-container img {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  margin-right: 10px; /* optional: add some space between images */
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
