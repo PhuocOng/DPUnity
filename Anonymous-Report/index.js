@@ -18,46 +18,60 @@ main()   //connect to mongoose databases init
 
 
 async function main() {
-  await mongoose.connect('mongodb://127.0.0.1:27017/anonymousReport');
-  // main() to connect index.js to mongoose databases
+    await mongoose.connect('mongodb://127.0.0.1:27017/anonymousReport');
+    // main() to connect index.js to mongoose databases
 }
 
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
-app.use(express.urlencoded({extended:true}))//this sentence make it possible to access req.body
+app.use(express.urlencoded({ extended: true }))//this sentence make it possible to access req.body
 app.use(methodOverride('_method'))
+app.use(express.static(path.join(__dirname, 'public')));
 
 
-app.get('/reports', async (req,res) => {
+app.get('/reports', async (req, res) => {
     const reports = await Report.find({})
-    res.render('index.ejs', {reports});
+    res.render('index.ejs', { reports });
 })
 
-app.get('/reports/new', async(req,res) => {
+app.get('/reports/data', async (req, res) => {  //push data of Report in Mongoose to API /reports/data 
+    try {
+        const data = await Report.find();
+        res.json(data);
+    } catch (err) {
+        console.error(err);
+        res.status(500).send('Error retrieving data');
+    }
+});
+
+app.get('/map', (req, res) => {
+    res.render('map.ejs')
+})
+
+app.get('/reports/new', async (req, res) => {
     res.render('new.ejs')
 
 })
 
-app.get('/reports/:id', async (req,res) => {
-    const {id} = req.params;
+app.get('/reports/:id', async (req, res) => {
+    const { id } = req.params;
     const report = await Report.findById(id);
-    res.render('report.ejs', {report})
+    res.render('report.ejs', { report })
 })
 
-app.post('/reports', async (req,res) => {
+app.post('/reports', async (req, res) => {
     const newReport = new Report(req.body);
+    console.log(newReport)
     await newReport.save();
     res.redirect(`/reports/${newReport._id}`)
 })
 
 app.delete('/reports/:id', async (req, res) => { // To delete the product
-    const {id} = req.params;
+    const { id } = req.params;
     const deletedProduct = await Report.findByIdAndDelete(id)
     res.redirect('/reports');
 })
-
-
 
 app.listen(3000, () => {
     console.log("APP IS LISTENING ON PORT 3000")

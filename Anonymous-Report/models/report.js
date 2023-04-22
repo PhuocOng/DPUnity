@@ -17,7 +17,14 @@ const reportSchema = new mongoose.Schema({
     description: {
         type: String,
         required: true
+    },
+    latitude: {
+        type: Number
+    },
+    longitude: {
+        type: Number
     }
+
 })
 
 const Report = mongoose.model('Report', reportSchema);
