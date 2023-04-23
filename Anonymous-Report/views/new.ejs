@@ -37,8 +37,8 @@
         var address = document.getElementById('location').value;
         geocoder.geocode({ 'address': address }, function(results, status) {
           if (status == 'OK') {
-            var latitude = results[0].geometry.location.lat();
-            var longitude = results[0].geometry.location.lng();
+            var latitude = results[0].geometry.location.lat() + (Math.random() * 0.0001) - 0.00005; //to ensure that 2 same place will have different markers
+            var longitude = results[0].geometry.location.lng() + (Math.random() * 0.0001) - 0.00005; //to ensure that 2 same place will have different markers
             console.log(latitude, longitude); // Make sure these values are being logged correctly
             document.getElementById('latitude').value = latitude;
             document.getElementById('longitude').value = longitude;
