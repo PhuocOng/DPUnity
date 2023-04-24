@@ -1,0 +1,34 @@
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+#map {
+  height: 600px;
+  width: 900px;
+}
+
+/* 
+ * Optional: Makes the sample page fill the window. 
+ */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+}
+
+.scrollable-div {
+  height: 600px; /* Set the height of the div */
+  width: 800px;
+  overflow-y: scroll; /* Add vertical scroll bar */
+}
+
+.custom-map-reports {
+  border: solid 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.custom-report-box {
+  border: solid 2px rgba(0, 0, 0, 0.5);
+}
