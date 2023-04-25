@@ -2,9 +2,18 @@
  * Always set the map height explicitly to define the size of the div element
  * that contains the map. 
  */
+@font-face {
+  font-family: 'Poppins';
+  src: url('path/to/poppins-regular.woff2') format('woff2'),
+       url('path/to/poppins-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 #map {
   height: 600px;
-  width: 900px;
+  width: 1800px;
 }
 
 /* 
@@ -16,19 +25,54 @@ body {
   margin: 0;
   padding: 0;
   background-color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+:root {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
 }
 
 .scrollable-div {
   height: 600px; /* Set the height of the div */
   width: 800px;
   overflow-y: scroll; /* Add vertical scroll bar */
+ 
 }
 
 .custom-map-reports {
   border: solid 2px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+  
+
+}
+.custom-map-reports h3 {
+  font-size: 15px;
+  margin: 3px;
+}
+.custom-map-reports h4 {
+  font-size: 15px;
+  margin: 2px;
+  color: gray;
 }
 
 .custom-report-box {
   border: solid 2px rgba(0, 0, 0, 0.5);
 }
+
+.row-report:hover {
+  background: whitesmoke;
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+  border-top: solid 0.5px black;
+}
+
+.icon:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+

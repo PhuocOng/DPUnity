@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <title>Show all documents</title>
+    
 </head>
 <body>
     <h1>All Reports!</h1>
     <ul>
         <% for (let report of reports) { %>
+            <h3>Title: <%= report.title %></h3>
             <h3>Time: <%= report.time %></h3>
             <h3>Date: <%= report.date %></h3>
             <h3>Location: <%= report.location %></h3>

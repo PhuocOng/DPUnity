@@ -10,8 +10,11 @@
     
 </head>
 <body>
+
     <h1>Creating Reports</h1>
     <form action="/reports" method="POST" onsubmit="event.preventDefault(); getLocation();">
+        <label for="title">Report title</label>
+        <input type="title" name="title" id="title" placeholder="report title" />
         <label for="time">Report time</label>
         <input type="time" name="time" id="time" placeholder="report time" />
         <label for="date">Report Date</label>
@@ -25,7 +28,8 @@
         <button>Submit</button>
       </form>
       <a href="/reports">Back to All Products</a>
-
+    </div>
+  </div>
 
     <script>
       var input = document.getElementById('location');

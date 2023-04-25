@@ -69,6 +69,8 @@ app.get('/reports/:id', async (req, res) => {
     res.render('report.ejs', { report })
 })
 
+
+
 app.post('/reports', async (req, res) => {
     const newReport = new Report(req.body);
     console.log(newReport)

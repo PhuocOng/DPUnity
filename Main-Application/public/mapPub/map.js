@@ -10,7 +10,7 @@ async function initMap(arrayMarker) {
     zoom: 15,
   });
 
-  const arraySafeSpot = [
+  const arraySafeSpot = [ //data for safespot
     {title: "Safe Spot" ,
      icon: "https://cdn-icons-png.flaticon.com/512/1160/1160358.png",
      latitude: 39.638588512509585, 
@@ -68,11 +68,15 @@ async function initMap(arrayMarker) {
       icon: image
     });
 
-    marker.addListener("click", () => {
+    marker.addListener("mouseover", () => {
       infowindow.open({
         anchor: marker,
         map,
       });
+    });
+
+    marker.addListener("mouseout", () => {
+      infowindow.close();
     });
   });
 
@@ -106,11 +110,15 @@ async function initMap(arrayMarker) {
       icon: image
     });
 
-    marker.addListener("click", () => {
+    marker.addListener("mouseover", () => {
       infowindow.open({
         anchor: marker,
         map,
       });
+    });
+
+    marker.addListener("mouseout", () => {
+      infowindow.close();
     });
   });
 }
@@ -124,3 +132,7 @@ fetch('/reports/data')
     initMap(arrayMarker);
   })
   .catch(error => console.error(error));
+
+
+
+  
