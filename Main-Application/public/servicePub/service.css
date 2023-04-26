@@ -1,7 +1,6 @@
-
-body{
+body {
   background: whitesmoke;
-  }
+}
 
 .custom-card .image-mentor {
   border-radius: 50%;
@@ -9,15 +8,13 @@ body{
 }
 
 .custom-card .custom-button {
-  margin-left: 22rem;
+  margin-left: 18em;
   margin-top: -1.5rem;
   background: red;
 }
 
-
-
 .custom-h1-card {
-  margin-left: -0.1rem;
+  margin-left: -0.2rem;
 }
 
 .checked {
@@ -25,41 +22,40 @@ body{
 }
 
 .meeting-options {
-    border-top: solid 1px black;
-    border-bottom: solid 1px black;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
 }
 
-
-.footer.row{
+.footer.row {
   width: 25%;
   padding: 0 15px;
   position: relative;
-  }
+}
 
-  .footer.row{
-    width: 25%;
-    padding: 0 15px;
-    position: relative;
-    }
+.footer.row {
+  width: 25%;
+  padding: 0 15px;
+  position: relative;
+}
 
- .img-fluid image-mentor{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    }
+.img-fluid image-mentor {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
 
 /*mentor 1 */
 
 /*mentor card color*/
-.mentor-card-1:hover{
+.mentor-card-1:hover {
   background-color: white;
-  box-shadow: 5px 5px 5px rgba(255,246,133,1);
+  box-shadow: 5px 5px 5px rgba(255, 246, 133, 1);
   transition: 0.4s;
   cursor: pointer;
   transform: scale(1.05);
 }
 
-.mentor-card-1{
+.mentor-card-1 {
   background: white;
   border: solid 2px orange;
 }
@@ -86,19 +82,19 @@ body{
   font-size: 15px;
 }
 
-/*mental health button bg color*/ 
-.custom-button-1{ 
+/*mental health button bg color*/
+.custom-button-1 {
   font-weight: bold;
   background-color: transparent;
-  margin-left: 22rem;
+  margin-left: 18em;
   margin-top: -1.5rem;
   border: light 2px #feb300;
   border-color: orange;
-  color: black
+  color: black;
 }
 
-.custom-button-1:hover{
-  background:#f4d900;
+.custom-button-1:hover {
+  background: #f4d900;
   border-color: orange;
   color: white;
   cursor: pointer;
@@ -106,19 +102,19 @@ body{
 
 /*mentor2*/
 
-/*mental health button bg color*/ 
-.custom-button-2{ 
+/*mental health button bg color*/
+.custom-button-2 {
   font-weight: bold;
   background-color: transparent;
-  margin-left: 22rem;
+  margin-left: 18em;
   margin-top: -1.5rem;
   border: light 2px green;
   border-color: green;
   color: black;
 }
 
-.custom-button-2:hover{
-  background:#77b300;
+.custom-button-2:hover {
+  background: #77b300;
   border-color: green;
   color: white;
   cursor: pointer;
@@ -147,35 +143,34 @@ body{
 }
 
 /*mentor card color*/
-.mentor-card-2:hover{
+.mentor-card-2:hover {
   background-color: white;
   box-shadow: 5px 5px 5px rgba(155, 196, 0);
-  transition: 0.5s ;
+  transition: 0.5s;
   cursor: pointer;
   transform: scale(1.05);
-  
 }
 
-.mentor-card-2{
+.mentor-card-2 {
   background: white;
   border: solid 2px green;
 }
 
 /*mentor3*/
 
-/*mental health button bg color*/ 
-.custom-button-3{ 
+/*mental health button bg color*/
+.custom-button-3 {
   font-weight: bold;
   background-color: transparent;
-  margin-left: 22rem;
+  margin-left: 18em;
   margin-top: -1.5rem;
   border: light 2px;
   border-color: pink;
-  color: black
+  color: black;
 }
 
-.custom-button-3:hover{
-  background:#ff1493;
+.custom-button-3:hover {
+  background: #ff1493;
   border-color: pink;
   color: white;
   cursor: pointer;
@@ -204,35 +199,34 @@ body{
 }
 
 /*mentor card color*/
-.mentor-card-3:hover{
+.mentor-card-3:hover {
   background: white;
-  box-shadow: 5px 5px 5px rgba(0247,89,144,1);
-  transition: 0.5s ease ;
+  box-shadow: 5px 5px 5px rgba(0247, 89, 144, 1);
+  transition: 0.5s ease;
   cursor: pointer;
   transform: scale(1.05);
-  
 }
 
-.mentor-card-3{
+.mentor-card-3 {
   background: white;
   border: solid 2px pink;
 }
 
 /*mentor3*/
 
-/*mental health button bg color*/ 
-.custom-button-4{ 
+/*mental health button bg color*/
+.custom-button-4 {
   font-weight: bold;
   background-color: transparent;
-  margin-left: 22rem;
+  margin-left: 18em;
   margin-top: -1.5rem;
-  border: light 2px; 
+  border: light 2px;
   border-color: #bf4aa8;
-  color: black
+  color: black;
 }
 
-.custom-button-4:hover{
-  background:#953aea;
+.custom-button-4:hover {
+  background: #953aea;
   border-color: #bf4aa8;
   color: white;
   cursor: pointer;
@@ -240,19 +234,19 @@ body{
 
 /*mentor 4*/
 
-/*mental health button bg color*/ 
-.custom-button-4{ 
+/*mental health button bg color*/
+.custom-button-4 {
   font-weight: bold;
   background-color: transparent;
-  margin-left: 22rem;
+  margin-left: 18em;
   margin-top: -1.5rem;
-  border: light 2px; 
+  border: light 2px;
   border-color: #bf4aa8;
-  color: black
+  color: black;
 }
 
-.custom-button-4:hover{
-  background:#953aea;
+.custom-button-4:hover {
+  background: #953aea;
   border-color: #bf4aa8;
   color: white;
   cursor: pointer;
@@ -276,55 +270,53 @@ body{
 
 /*color of mentor badg ability*/
 .mentor-badge-4 span {
-  background-color:#edd6ff!important;
+  background-color: #edd6ff !important;
   font-size: 15px;
 }
 
 /*mentor card color*/
-.mentor-card-4{
+.mentor-card-4 {
   background: white;
   border: solid 2px #bf4aa8;
-  
 }
 
-.mentor-card-4:hover{
+.mentor-card-4:hover {
   background: white;
   box-shadow: 5px 5px 5px rgba(208, 189, 244);
-  transition: 0.5s ease ;
+  transition: 0.5s ease;
   cursor: pointer;
-  transform: scale(1.05); 
-  
+  transform: scale(1.05);
 }
 
 /*mentor 5*/
-/*mental health button bg color*/ 
-.custom-button-5{ 
+/*mental health button bg color*/
+.custom-button-5 {
   font-weight: bold;
   background-color: transparent;
-  margin-left: 22rem;
+  margin-left: 18em;
   margin-top: -1.5rem;
   border: light 2px #feb300;
   border-color: #51d0de;
-  color: black
+  color: black;
 }
 
-.custom-button-5:hover{
-  background:#11bfd3;
+.custom-button-5:hover {
+  background: #11bfd3;
   border-color: #51d0de;
   color: white;
   cursor: pointer;
 }
 
 /*mentor card color*/
-.mentor-card-5{
+.mentor-card-5 {
   background: white;
   border: solid 2px #51d0de;
 }
 
-.mentor-card-5:hover{
+.mentor-card-5:hover {
   background: white;
   box-shadow: 5px 5px 5px rgba(81, 226, 245);
-  transition: 0.5s ease ;
+  transition: 0.5s ease;
   cursor: pointer;
   transform: scale(1.05);
 }
@@ -349,4 +341,20 @@ body{
   color: #ffffff;
   cursor: pointer;
   border-radius: 10px;
+}
+
+.custom-book-now {
+  background-color: #feb300;
+  border-color: #feb300;
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+}
+
+.custom-book-now:hover {
+  background-color: #9c5e00;
+}
+
+.custom-whitebox-first-div:hover {
+  transform: translateY(-5px);
+  transition: 0.2s ease-in-out;
 }

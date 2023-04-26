@@ -2,14 +2,7 @@
  * Always set the map height explicitly to define the size of the div element
  * that contains the map. 
  */
-@font-face {
-  font-family: 'Poppins';
-  src: url('path/to/poppins-regular.woff2') format('woff2'),
-       url('path/to/poppins-regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 #map {
   height: 600px;
@@ -25,27 +18,64 @@ body {
   margin: 0;
   padding: 0;
   background-color: whitesmoke;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
+  font-family: "Poppins", sans-serif;
 }
 
 :root {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.nav-link {
+  font-size: 20px;
+  color: #59574f;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-link:hover {
+  color: #ff9800;
+}
+
+.btn-primary {
+  background-color: #ff9800; /* Replace with your desired default background color */
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+}
+
+/* Change the background color and other styles when hovering over the btn-primary class */
+.btn-primary:hover {
+  background-color: #e64a19; /* Replace with your desired hover background color */
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a {
+  color: var(-dark);
+  text-decoration: none;
 }
 
 .scrollable-div {
   height: 600px; /* Set the height of the div */
   width: 800px;
   overflow-y: scroll; /* Add vertical scroll bar */
- 
 }
 
 .custom-map-reports {
   border: solid 2px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
-  
-
 }
 .custom-map-reports h3 {
   font-size: 15px;
@@ -64,7 +94,7 @@ body {
 .row-report:hover {
   background: whitesmoke;
   transform: translateY(-5px);
-  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   border-top: solid 0.5px black;
 }
 
@@ -74,5 +104,3 @@ body {
   padding: 10px;
   box-sizing: border-box;
 }
-
-

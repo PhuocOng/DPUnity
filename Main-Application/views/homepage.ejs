@@ -14,7 +14,6 @@
 </head>
 
 <body>
-  <script src="homepagePub/homepage.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
     crossorigin="anonymous"></script>
@@ -22,13 +21,12 @@
     integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
     crossorigin="anonymous"></script>
 
-  <button id="report-btn">Report here</button>
 
   <!--NAVBAR-->
-  <nav class="navbar navbar-expand-lg py-3 bg-body-tertiary navbar-custom-homepage">
+  <nav class="navbar navbar-expand-lg py-4 bg-body-tertiary navbar-custom-homepage">
     <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="image/logo.png" alt="My logo" width="100" height="50" />
+      <a class="navbar-brand" href="/homepage">
+        <img src="image/Logo.png" alt="My logo" width="300" height="75" />
       </a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -39,13 +37,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a class="nav-link" href="/homepage">Home</a>
+            <a class="nav-link" href="/homepage"><b>Home</b></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/map">Safe Map</a>
+            <a class="nav-link" href="/map"><b>Safe Map</b></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/service">Support Service</a>
+            <a class="nav-link" href="/service"><b>Support Service</b></a>
           </li>
         </ul>
         <button class="btn btn-primary ms-lg-3">Log in</button>
@@ -57,175 +55,264 @@
   <!--END OF NAVBAR-->
 
   <!--HERO SECTION-->
-  <div class="hero vh-100 d-flex align-items-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-7">
-          <h1 class="display-4">
-            We are aiming at improving the inclusion and diversity on campus!
-          </h1>
-          <p>
-            We are pleased to offer a Safe Map feature that collects data from
-            anonymous reporting of incidents of sexual harassment,
-            discrimination, and bias on campus to protect our student.
-          </p>
-          <a href="#" class="btn btn-primary">Report here!</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--END OF HERO SECTION-->
 
-  <!--SERVICE SECTION-->
-  <section id="services">
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col-md-8 mx-auto text-center">
-          <h6 class="text-primary">SERIVCES</h6>
-          <h1>Our Services</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur nisi necessitatibus
-            repellat distinctio eveniet eaque fuga in cumque optio consectetur
-            harum vitae debitis sapiente praesentium aperiam aut
-          </p>
-        </div>
-      </div>
-      <div class="row g-4">
-        <div class="col-lg-4 col-sm-6">
-          <div class="service card-effect bounceInUp">
-            <div class="iconbox">
-              <i class="bx bx-comment-dots"></i>
-            </div>
-            <h5 class="mt-4 mb-2">Annonymous Report</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-              perspiciatis illo asperiores perferendis
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="service card-effect">
-            <div class="iconbox">
-              <i class="bx bx-map"></i>
-            </div>
-            <h5 class="mt-4 mb-2">Safe Map</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-              perspiciatis illo asperiores perferendis
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="service card-effect">
-            <div class="iconbox">
-              <i class="bx bx-happy-beaming"></i>
-            </div>
-            <h5 class="mt-4 mb-2">Support Service</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-              perspiciatis illo asperiores perferendis
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Annonymous Report -->
-  <section id="annonymous report">
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col-md-8 mx-auto text-center">
-          <h6 class="text-primary">ANNONYMOUS REPORT</h6>
-          <h1>We are here to help you!</h1>
-          <p>
-            The time you raised your voice, you are saving other students from
-            sexual, harassment, discrimination issues.
-          </p>
-        </div>
-      </div>
-
-      <form action="" class="row g-3 justify-content-center">
-        <div class="col-md-5">
-          <input type="text" class="form-control" placeholder="Time" />
-        </div>
-        <div class="col-md-5">
-          <input type="text" class="form-control" placeholder="Date" />
-        </div>
-        <div class="col-md-10">
-          <input type="text" class="form-control" placeholder="Location" />
-        </div>
-        <div class="col-md-10">
-          <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="Content of Report"></textarea>
-        </div>
-        <div class="col-md-10 d-grid">
-          <button class="btn btn-primary">Send</button>
-        </div>
-      </form>
-    </div>
-  </section>
-  <!-- ANNONYMOUS REPORT -->
-
-  <!--footer-->
-  <footer>
-    <div class="footer-top">
-      <div class="container">
-        <div class="row gy-4">
-          <div class="col-lg-4">
-            <img class="logo" src="image/logo.png" alt="" width="300" height="200" />
-          </div>
-          <div class="col-lg-2">
-            <h5 class="text-white">Content</h5>
-            <ul class="list-unstyled">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Annonymous Report</a></li>
-              <li><a href="#">Safe Map</a></li>
-              <li><a href="#">Support Service</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-2">
-            <h5 class="text-white">More</h5>
-            <ul class="list-unstyled">
-              <li><a href="#">FAQ's</a></li>
-              <li><a href="#">Terms</a></li>
-              <li><a href="#">Privacy</a></li>
-              <li><a href="#">Support</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-4">
-            <h5 class="text-white">Contact</h5>
-            <ul class="list-unstyled">
-              <li>Address: 408S Locust Street, Greencastle, Indiana</li>
-              <li>Email: phuocong_2026@depauw.edu</li>
-              <li>Phone: (765) 246-2191</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer-bottom py-3">
+  <body>
+    <div class="hero vh-100 d-flex align-items-center justify-content-center py-3 ">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <p class="mb-0">
-              © 2020 copyright all right reserved | Designed by Peter Ong &
-              Darcy Tran<i></i>
-            </p>
-          </div>
-
-          <div class="col-md-6">
-            <div class="social-icons">
-              <a href="#"><i class="bx bxl-facebook"></i></a>
-              <a href="#"><i class="bx bxl-twitter"></i></a>
-              <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+          <div class="col text-content ">
+            <h1 class="display-4 text-center custom-first-sec-text">
+              WE ARE AIMING AT IMPROVING <br> THE INCLUSION AND DIVERSITY ON DEPAUW
+            </h1>
+            <div class="d-flex justify-content-center align-content-center">
+              <p class="custom-second-sec-text text-center mt-5">
+                WE ARE PLEASED TO OFFER SAFE MAP
             </div>
+            </p>
           </div>
         </div>
       </div>
     </div>
-  </footer>
-  <!--end of footer-->
+    <!--END OF HERO SECTION-->
 
-</body>
+    <!--SERVICE SECTION-->
+    <section id="services" class=" py-3">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-8 mx-auto text-center">
+            <h1 class="service-header"><b>OUR SERVICES</b></h1>
+            <p class="service-content"> <!--write the content here-->
+              Lorem ipsum dolor sit amet consectetur nisi necessitatibus
+              repellat distinctio eveniet eaque fuga in cumque optio consectetur
+              harum vitae debitis sapiente praesentium aperiam aut
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-4 col-sm-6">
+            <div class="service card-effect bounceInUp">
+              <div class="iconbox">
+                <i class="bx bx-comment-dots" style="color:orange;"></i>
+              </div>
+              <h5 class="mt-4 mb-2" style="color:black;"><b>Anonymous Report</b></h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                perspiciatis illo asperiores perferendis
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="service card-effect">
+              <div class="iconbox">
+                <i class="bx bx-map" style="color:orange;"></i>
+              </div>
+              <h5 class="mt-4 mb-2" style="color:black;"><b>Safe Map</b></h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                perspiciatis illo asperiores perferendis
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="service card-effect">
+              <div class="iconbox">
+                <i class="bx bx-happy-beaming" style="color:orange;"></i>
+              </div>
+              <h5 class="mt-4 mb-2" style="color:black;"><b>Support Service</b></h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                perspiciatis illo asperiores perferendis
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--RECENT REPORT-->
+    <div class="text-center py-3">
+      <h1 class="recent-report header"><b>RECENT REPORT</b></h1>
+      <p class="report-content"> <!--write the content here-->
+        Lorem ipsum dolor sit amet consectetur nisi necessitatibus
+        repellat distinctio eveniet eaque fuga in cumque optio consectetur
+        harum vitae dsdwebitis sapiente praesentium aperiam aut
+      </p>
+      <div class="d-flex justify-content-center"> <!--A scroll horizontally imageS-->
+        <div id="recent report-btn" style="width: 90%">
+          <div class="image-container slider" style="width: 100%">
+            <img src="image/Anonymous report.jpg" alt="Image 1" style="width: 500px; border: 1px solid #FF9800; border-radius:15px;">
+            <img src="image/Anonymous report.jpg" alt="Image 2" style="width: 500px; border: 1px solid #FF9800; border-radius:15px;">
+            <img src="image/Anonymous report.jpg" alt="Image 3" style="width: 500px; border: 1px solid #FF9800; border-radius:15px;">
+            <img src="image/Anonymous report.jpg" alt="Image 4" style="width: 500px; border: 1px solid #FF9800; border-radius:15px;">
+            <img src="image/Anonymous report.jpg" alt="Image 5" style="width: 500px; border: 1px solid #FF9800; border-radius:15px;">
+            <img src="image/Anonymous report.jpg" alt="Image 6" style="width: 500px; border: 1px solid #FF9800; border-radius:15px;">
+            <img src="image/Anonymous report.jpg" alt="Image 7" style="width: 500px; border: 1px solid #FF9800; border-radius:15px;">
+            <img src="image/Anonymous report.jpg" alt="Image 8" style="width: 500px; border: 1px solid #FF9800; border-radius:15px;">
+            <img src="image/Anonymous report.jpg" alt="Image 9" style="width: 500px; border: 1px solid #FF9800; border-radius:15px;">
+            <img src="image/Anonymous report.jpg" alt="Image 10" style="width: 500px; border: 1px solid #FF9800; border-radius:15px;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--What advisors tell about this website-->
+    <section id="advisor-testimonials" class="py-3">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-8 mx-auto text-center">
+            <h1 class="advisor-header"><b>WHAT ADVISORS TELL ABOUT OUR WEBSITE</b></h1>
+            <p class="advisor-content">
+              Lorem ipsum dolor sit amet consectetur nisi necessitatibus
+              repellat distinctio eveniet eaque fuga in cumque optio consectetur
+              harum vitae debitis sapiente praesentium aperiam aut
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="advisor" style="height:300px;">
+              <div class="row advisor-image-wrapper">
+                <div class="col-4" style="padding-top:40px;">
+                  <img src="image/advisor.png" alt="Advisor 1" class="advisor-image" />
+                </div>
+                <div class="col-8">
+                  <h3 class="advisor-name"><b>Advisor 1</b></h3>
+                  <p class="advisor-content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consectetur possimus provident
+                    nisi similique ullam quos vitae placeat quidem libero, et mollitia praesentium harum cupiditate esse
+                    obcaecati eos magni aut!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="advisor" style="height:300px;">
+              <div class="row advisor-image-wrapper">
+                <div class="col-4" style="padding-top:40px;">
+                  <img src="image/advisor.png" alt="Advisor 2" class="advisor-image" />
+                </div>
+                <div class="col-8">
+                  <h3 class="advisor-name"><b>Advisor 2</b></h3>
+                  <p class="advisor-content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consectetur possimus provident
+                    nisi similique ullam quos vitae placeat quidem libero, et mollitia praesentium harum cupiditate esse
+                    obcaecati eos magni aut!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!--Anonymous report-->
+    <!-- Anonymous Report -->
+    <section id="annonymous report" class="py-5">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-8 mx-auto text-center">
+            <h1 class="form-header"><b>WE ARE HERE TO HELP YOU!</b></h1>
+            <p class="anonymous-content"> <!--write the content here-->
+              Lorem ipsum dolor sit amet consectetur nisi necessitatibus
+              repellat distinctio eveniet eaque fuga in cumque optio consectetur
+              harum vitae debitis sapiente praesentium aperiam aut
+            </p>
+            <div class="d-flex justify-content-center align-items-center pt-5" style="height: 100vh;color:black;">
+              <div class="container d-flex justify-content-center align-items-center ">
+                <div class="form" style="background-image:url('https://static.vecteezy.com/system/resources/thumbnails/007/718/403/small_2x/simple-retro-template-background-free-vector.jpg');background-repeat: no-repeat; background-size: cover;width:900px">
+                    <h1 class="text-center">ANNONYMOUS REPORT</h1> 
+                    <p>The time you raised your voice, you are saving other students from sexual, harassment, discrimination issues.</p>
+                    <form action="/reports" method="POST" onsubmit="event.preventDefault(); getLocation();">
+                        <label for="title">Report title:<span style="color:red">*</span></label>  <br>
+                        <input class="input" type="text" name="title" id="title" placeholder="Report Title" required /> <br>
+                        <label for="time">Report time:<span style="color:red">*</span></label> <br>
+                        <input class="input" type="time" name="time" id="time" placeholder="Report Time" required /> <br>
+                        <label for="date">Report Date:<span style="color:red">*</span></label> <br>
+                        <input class="input" type="date" id="date" name="date" placeholder="Report date" required /> <br>
+                        <label for="location">Report Location:<span style="color:red">*</span></label> <br>
+                        <input class="input" type="text" id="location" name="location" placeholder="Report location" value="DePauw University, South Locust Street, Greencastle, IN, USA" required />  <br>
+                        <label for="description">Report description:<span style="color:red">*</span></label> <br>
+                        <textarea class="input" id="description" name="description" placeholder="Report description" style="height:150px;" required></textarea>
+                        <input type="hidden" id="latitude" name="latitude"> <br>
+                        <input type="hidden" id="longitude" name="longitude"> <br>
+                        <button class="custom-btn" style="width: 100%; height:40px; background-color: #f48c06;color:white;"><b>Submit</b></button>
+                        <div id="validation-message" style="font-size: 15px; font-weight:bold;"></div>
+                    </form>
+                    <a href="/map">Back to map</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+      <!--footer-->
+      <footer style="margin-top:90px">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <img class="logo" src="image/Logo-another.png" alt="" width="400px" style="margin-left: -70px" />
+              </div>
+              <div class="col-lg-2">
+                <h5 class="text-white"><b>Content</b></h5>
+                <ul class="list-unstyled">
+                  <li><a href="index.html"><i class='bx bxs-home' style='color: rgb(0, 255, 94);'></i>Home</a></li>
+                  <li><a href="#"><i class='bx bxs-report'style='color: #E5BEEC;'></i>Anonymous Report</a></li>
+                  <li><a href="#"><i class='bx bxs-map' style='color: #FFD93D;'></i>Safe Map</a></li>
+                  <li><a href="service.html"><i class='bx bx-happy-alt' style='color: #B0DAFF;'></i>Support Service</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <h5 class="text-white"><b>More</b></h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">FAQ's</a></li>
+                  <li><a href="#">Terms</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Support</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-4">
+                <h5 class="text-white"><b>Contact</b></h5>
+                <ul class="list-unstyled">
+                  <li><i class='bx bx-current-location' style='color:#E8A0BF;'></i></i>Address: 408S Locust Street, Greencastle, Indiana</a></li>
+                  <li><i class='bx bx-envelope' style='color:#DF2E38' ></i>Email: phuocong_2026@depauw.edu</li>
+                  <li><i class='bx bx-phone' style='color:coral' ></i>Phone: (765) 246-2191</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom py-3">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <p class="mb-0">
+                  © 2020 copyright all right reserved | Designed by Peter Ong &
+                  Darcy Tran<i></i>
+                </p>
+              </div>
+
+              <div class="col-md-6">
+                <div class="social-icons">
+                  <a href="#"><i class="bx bxl-facebook"></i></a>
+                  <a href="#"><i class="bx bxl-twitter"></i></a>
+                  <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--end of footer-->
+
+  </body>
 
 </html>

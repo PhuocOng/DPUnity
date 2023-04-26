@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 
-:root{
-    --primary:#0d6efd;
-    --dark: #21252f;
-    --body:#888;
-    --box-shadow:0 8px 22px rgba(0,0,0,0.1);
+:root {
+  --dark: #21252f;
+  --body: #888;
+  --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
 }
 
 body{
-    font-family: Sora,"sans-serif";
+  font-family: "Poppins", sans-serif;
     line-height: 1,7;
     color: var(--body);
 }
@@ -34,30 +34,20 @@ body{
   background-color: #242933;
 }
 
-.social-icons {
-  display: flex;
-  justify-content: center;
+.social-icons a i {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
   color: white;
-}
-.social-icons a {
-    width: 34px;
-    height: 34px;
-    background-color: var(--primary);
-    border-radius: 2px solid var(--primary);
-    color: var(--white);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100px;
-    margin-left: 5px;
-    transition: all 0.4s ease;
-    border: 2px solid var(--primary);
+  border-radius: 50%;
+  background-color: #ff9800;
 }
 
-.social-icons a:hover {
-    color: var(--primary);
-    background-color: transparent;
-    border-color: var(--primarys);
+.social-icons a i:hover {
+  background-color: #fff;
+  color: #333;
 }
 
 

@@ -1,19 +1,122 @@
 body {
+  background-color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+  line-height: 1, 7;
+  color: var(--body);
+}
+
+:root {
+  --dark: #21252f;
+  --body: #888;
+  --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+}
+
+.div-body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
 }
 
 .custom-btn {
-    border: 1px solid;
+  border: solid 3px #faa307;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  transition: 0.3s ease-in-out;
+}
+
+.custom-btn:hover {
+  background-color: #dee2e6;
+  transform: translateY(-5px);
 }
 
 .box-info {
-    border-radius: 20px;
+  border-radius: 20px;
+
+  transition: all 0.3s ease; /* add transition for smooth effect */
 }
- 
+
+.box-info:hover {
+  transform: translateY(-5px); /* move the box up by 5px */
+  box-shadow: 0 5px 5px #fb8500; /* add yellow shadow at the bottom */
+}
+
 .box-info h3 {
-    margin-top: 25px;
+  margin-top: 25px;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.nav-link {
+  font-size: 20px;
+  color: #59574f;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-link:hover {
+  color: #ff9800;
+}
+
+.btn-primary {
+  background-color: #ff9800; /* Replace with your desired default background color */
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+}
+
+/* Change the background color and other styles when hovering over the btn-primary class */
+.btn-primary:hover {
+  background-color: #e64a19; /* Replace with your desired hover background color */
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a {
+  color: var(-dark);
+  text-decoration: none;
+}
+
+.footer-top {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: var(--dark);
+}
+
+.footer-top a {
+  color: var(--body);
+}
+
+.footer-top a:hover {
+  color: var(--white);
+}
+
+.footer-bottom {
+  background-color: #242933;
+}
+
+.social-icons a i {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  border-radius: 50%;
+  background-color: #ff9800;
+}
+
+.social-icons a i:hover {
+  background-color: #fff;
+  color: #333;
 }
