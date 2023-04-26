@@ -4,8 +4,9 @@ const button = document.querySelector('.custom-btn');
 
 
 button.addEventListener('click', (event) => {
-  event.preventDefault();
-  if (!form.checkValidity()) {
+
+  if (!form.checkValidity()) {  //If users didn't completely fill the form, then we don't allow them to submit
+    event.preventDefault();
     validationMessage.innerHTML = 'Please fill out all required fields.';
   } else {
     validationMessage.innerHTML = '';
