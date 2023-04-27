@@ -1,7 +1,7 @@
 # ![Demo GIF](https://github.com/PhuocOng/Hackathon-WICS/blob/main/public/image/gif-for-readme.gif "Project Demo")DPUnity Website
 ![Logo](https://github.com/PhuocOng/Hackathon-WICS/blob/main/public/image/background_for_readme.png)
 
-## :arrow_right: Access our website using this link:
+## :arrow_right: Access our website using this link: [DPUnity Website](https://desolate-crag-73822.herokuapp.com/)
 
 ## :star2: Inspiration 
 <img  src="https://github.com/PhuocOng/Hackathon-WICS/blob/main/public/image/coding%20gif.gif" height="250px" align="right" />
@@ -44,7 +44,7 @@ During the 14-day hackathon, we, as complete beginners, learned various new tech
 
 ## :sparkles: Additional information
 ### For user :ok_woman:
-- To use the website, you can simply visit the deployed version at ....
+- To use the website, you can simply visit the deployed version at [DPUnity Website](https://desolate-crag-73822.herokuapp.com/)
 
 ### For contributor :octocat:
 - To contribute to the codebase, **create a new branch, make your changes, commit them, and create a pull request on the original repository**. See [GitHub's documentation on pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) for more information.
