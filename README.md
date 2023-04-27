@@ -1,13 +1,10 @@
-# ![Demo GIF](https://github.com/PhuocOng/Hackathon-WICS/blob/main/Front-end/image/gif-for-readme.gif "Project Demo")DPUnity Website
-![Logo](https://github.com/PhuocOng/Hackathon-WICS/blob/main/Front-end/image/background_for_readme.png)
+# ![Demo GIF](https://github.com/PhuocOng/Hackathon-WICS/blob/main/Main-Application/public/image/gif-for-readme.gif "Project Demo")DPUnity Website
+![Logo](https://github.com/PhuocOng/Hackathon-WICS/blob/main/Main-Application/public/image/coding%20gif.gif)
 
 ## :arrow_right: Access our website using this link:
 
 ## :star2: Inspiration 
-<div style="text-align: justify;">
-<img  src="https://github.com/PhuocOng/Hackathon-WICS/blob/main/Front-end/image/coding%20gif.gif?raw=true" height="230px" align="right" />
 The inspiration behind <b>DPUnity</b> comes from recognizing the need to <b>foster a more inclusive and diverse campus environment at DePauw University</b>. With a significant number of international students and students from various backgrounds, it is crucial to address challenges like discrimination, sexual harassment, and bias that some students may face. <b>DPUnity</b> was developed to empower students by <b>providing a safe, anonymous platform for reporting incidents and offering resources for navigating campus safely and accessing professional mental health support.</b> 
-</div>
 
 ## :mag: What is **DPUnity**
 ### About :round_pushpin:
