@@ -1,0 +1,360 @@
+body {
+  background: whitesmoke;
+}
+
+.custom-card .image-mentor {
+  border-radius: 50%;
+  max-width: 350px;
+}
+
+.custom-card .custom-button {
+  margin-left: 18em;
+  margin-top: -1.5rem;
+  background: red;
+}
+
+.custom-h1-card {
+  margin-left: -0.2rem;
+}
+
+.checked {
+  color: #ffde22;
+}
+
+.meeting-options {
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+}
+
+.footer.row {
+  width: 25%;
+  padding: 0 15px;
+  position: relative;
+}
+
+.footer.row {
+  width: 25%;
+  padding: 0 15px;
+  position: relative;
+}
+
+.img-fluid image-mentor {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/*mentor 1 */
+
+/*mentor card color*/
+.mentor-card-1:hover {
+  background-color: white;
+  box-shadow: 5px 5px 5px rgba(255, 246, 133, 1);
+  transition: 0.4s;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.mentor-card-1 {
+  background: white;
+  border: solid 2px orange;
+}
+
+/*reservation buttonn*/
+.make-reservation-button-1 {
+  background-color: transparent;
+  border: 2px solid orange;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.make-reservation-button-1:hover {
+  background-color: #f4d900;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/*color of mentor badg ability*/
+.mentor-badge-1 span {
+  background-color: #fffec0 !important;
+  font-size: 15px;
+}
+
+/*mental health button bg color*/
+.custom-button-1 {
+  font-weight: bold;
+  background-color: transparent;
+  margin-left: 18em;
+  margin-top: -1.5rem;
+  border: light 2px #feb300;
+  border-color: orange;
+  color: black;
+}
+
+.custom-button-1:hover {
+  background: #f4d900;
+  border-color: orange;
+  color: white;
+  cursor: pointer;
+}
+
+/*mentor2*/
+
+/*mental health button bg color*/
+.custom-button-2 {
+  font-weight: bold;
+  background-color: transparent;
+  margin-left: 18em;
+  margin-top: -1.5rem;
+  border: light 2px green;
+  border-color: green;
+  color: black;
+}
+
+.custom-button-2:hover {
+  background: #77b300;
+  border-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+/*color of mentor badg ability*/
+.mentor-badge-2 span {
+  background-color: #c8ebb9 !important;
+  font-size: 15px;
+}
+
+/*reservation button*/
+.make-reservation-button-2 {
+  background-color: transparent;
+  border: 2px solid green;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.make-reservation-button-2:hover {
+  background-color: #77b300;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/*mentor card color*/
+.mentor-card-2:hover {
+  background-color: white;
+  box-shadow: 5px 5px 5px rgba(155, 196, 0);
+  transition: 0.5s;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.mentor-card-2 {
+  background: white;
+  border: solid 2px green;
+}
+
+/*mentor3*/
+
+/*mental health button bg color*/
+.custom-button-3 {
+  font-weight: bold;
+  background-color: transparent;
+  margin-left: 18em;
+  margin-top: -1.5rem;
+  border: light 2px;
+  border-color: pink;
+  color: black;
+}
+
+.custom-button-3:hover {
+  background: #ff1493;
+  border-color: pink;
+  color: white;
+  cursor: pointer;
+}
+
+/*color of mentor badg ability*/
+.mentor-badge-3 span {
+  background-color: #ffb6c1 !important;
+  font-size: 15px;
+}
+
+/*reservation button*/
+.make-reservation-button-3 {
+  background-color: transparent;
+  border: 2px solid pink;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.make-reservation-button-3:hover {
+  background-color: #ff1493;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/*mentor card color*/
+.mentor-card-3:hover {
+  background: white;
+  box-shadow: 5px 5px 5px rgba(0247, 89, 144, 1);
+  transition: 0.5s ease;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.mentor-card-3 {
+  background: white;
+  border: solid 2px pink;
+}
+
+/*mentor3*/
+
+/*mental health button bg color*/
+.custom-button-4 {
+  font-weight: bold;
+  background-color: transparent;
+  margin-left: 18em;
+  margin-top: -1.5rem;
+  border: light 2px;
+  border-color: #bf4aa8;
+  color: black;
+}
+
+.custom-button-4:hover {
+  background: #953aea;
+  border-color: #bf4aa8;
+  color: white;
+  cursor: pointer;
+}
+
+/*mentor 4*/
+
+/*mental health button bg color*/
+.custom-button-4 {
+  font-weight: bold;
+  background-color: transparent;
+  margin-left: 18em;
+  margin-top: -1.5rem;
+  border: light 2px;
+  border-color: #bf4aa8;
+  color: black;
+}
+
+.custom-button-4:hover {
+  background: #953aea;
+  border-color: #bf4aa8;
+  color: white;
+  cursor: pointer;
+}
+
+/*reservation button*/
+.make-reservation-button-4 {
+  background-color: transparent;
+  border: 2px solid #bf4aa8;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.make-reservation-button-4:hover {
+  background-color: #953aea;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/*color of mentor badg ability*/
+.mentor-badge-4 span {
+  background-color: #edd6ff !important;
+  font-size: 15px;
+}
+
+/*mentor card color*/
+.mentor-card-4 {
+  background: white;
+  border: solid 2px #bf4aa8;
+}
+
+.mentor-card-4:hover {
+  background: white;
+  box-shadow: 5px 5px 5px rgba(208, 189, 244);
+  transition: 0.5s ease;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+/*mentor 5*/
+/*mental health button bg color*/
+.custom-button-5 {
+  font-weight: bold;
+  background-color: transparent;
+  margin-left: 18em;
+  margin-top: -1.5rem;
+  border: light 2px #feb300;
+  border-color: #51d0de;
+  color: black;
+}
+
+.custom-button-5:hover {
+  background: #11bfd3;
+  border-color: #51d0de;
+  color: white;
+  cursor: pointer;
+}
+
+/*mentor card color*/
+.mentor-card-5 {
+  background: white;
+  border: solid 2px #51d0de;
+}
+
+.mentor-card-5:hover {
+  background: white;
+  box-shadow: 5px 5px 5px rgba(81, 226, 245);
+  transition: 0.5s ease;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+/*color of mentor badg ability*/
+.mentor-badge-5 span {
+  background-color: #8af3ffdd !important;
+  font-size: 15px;
+}
+
+/*reservation button*/
+.make-reservation-button-5 {
+  background-color: transparent;
+  border: 2px solid #51d0de;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.make-reservation-button-5:hover {
+  background-color: #11bfd3;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.custom-book-now {
+  background-color: #feb300;
+  border-color: #feb300;
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+}
+
+.custom-book-now:hover {
+  background-color: #9c5e00;
+}
+
+.custom-whitebox-first-div:hover {
+  transform: translateY(-5px);
+  transition: 0.2s ease-in-out;
+}
