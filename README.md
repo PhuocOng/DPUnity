@@ -60,7 +60,7 @@ While we are proud of our accomplishments with **DPUnity**, there is always room
 ### Installation & set up :desktop_computer:
 1. Clone the repository: `git clone https://github.com/PhuocOng/Hackathon-WICS.git`
 2. Install dependencies: `npm install`
-3. Run the project locally: `npm start`
+3. Run the project locally: `node index.js`
 4. Open your browser and navigate to: `http://localhost:3000`
 
 ### License :lock:
