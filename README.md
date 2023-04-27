@@ -4,14 +4,15 @@
 ## :arrow_right: Access our website using this link:
 
 ## :star2: Inspiration 
-The inspiration behind DPUnity comes from recognizing the need to foster a more inclusive and diverse campus environment at DePauw University. With a significant number of international students and students from various backgrounds, it is crucial to address challenges like discrimination, sexual harassment, and bias that some students may face. DPUnity was developed to empower students **by providing a safe, anonymous platform for reporting incidents and offering resources for navigating campus safely and accessing professional mental health support**. Our ultimate goal is to create an inclusive, supportive, and safe atmosphere for all students on campus.
+<img  src="https://github.com/PhuocOng/Hackathon-WICS/blob/main/Front-end/image/coding%20gif.gif?raw=true" height="230px" align="right" />
+The inspiration behind **DPUnity** comes from recognizing the need to foster a more inclusive and diverse campus environment at DePauw University. With a significant number of international students and students from various backgrounds, it is crucial to address challenges like discrimination, sexual harassment, and bias that some students may face. **DPUnity** was developed to empower students **by providing a safe, anonymous platform for reporting incidents and offering resources for navigating campus safely and accessing professional mental health support**. 
 
-## :mag: What is DPUnity
+## :mag: What is **DPUnity**
 ### About :round_pushpin:
-DPUnity is **a web platform designed to enhance inclusion and diversity at DePauw University** by providing students with a safe and anonymous space to report incidents of discrimination, harassment, or bias. Our platform also offers a safe map feature to help students navigate campus securely and connects them to professional mental health mentors for support. 
+**DPUnity** is **a web platform designed to enhance inclusion and diversity at DePauw University** by providing students with a safe and anonymous space to report incidents of discrimination, harassment, or bias. Our platform also offers a safe map feature to help students navigate campus securely and connects them to professional mental health mentors for support. 
 
 ### Feature :boom:
-DPUnity offers three main features:
+**DPUnity** offers three main features:
 1. **Anonymous Report System:** A secure platform for students to anonymously report incidents related to discrimination, harassment, or bias.
 2. **Safe Map:** By analyzing student reports, we provide a map highlighting safe and dangerous locations on campus to help students navigate safely.
 3. **Support Services:** Students can access professional mental health mentors to help them cope with and resolve their problems. We directly connect students to our qualified mentors.
@@ -26,9 +27,9 @@ DPUnity offers three main features:
 - Back-end: **MongoDB Atlas, Express, Node.js,** for database management.
 - Map Integration: **Google Maps API**, **Google Search API** for customizing campus maps and pinning relevant locations.
 
-## :pencil: How DPUnity created
+## :pencil: How **DPUnity** created
 ###  The challenges we faced :worried:
-As a team of **two freshmen with no prior experience in web development**, we faced numerous challenges while building DPUnity. These challenges were both educational and time-constrained, as we had to learn new technologies and complete the project within 14 days.
+As a team of **two freshmen with no prior experience in web development**, we faced numerous challenges while building **DPUnity**. These challenges were both educational and time-constrained, as we had to learn new technologies and complete the project within 14 days.
 _Some of the key challenges we encountered were:_
 - **Brainstorming:** Since the topic of improving inclusion and diversity is quite popular, we have to spents quite amount of time choosing the idea for the website that can create an obvious positive impact for campus climate
 - **Learning web development from scratch:** With no prior knowledge of HTML, CSS, JavaScript, and Bootstrap, we had to self-study and quickly grasp these technologies to build the front-end of our website.
@@ -49,12 +50,12 @@ During the 14-day hackathon, we, as complete beginners, learned various new tech
 - To contribute to the codebase, **create a new branch, make your changes, commit them, and create a pull request on the original repository**. See [GitHub's documentation on pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) for more information.
 - Note that to run the reporting system and counseling call feature, you will need to set up appropriate credentials and connections to necessary services, which are not included in this repository for security reasons. Please contact the project maintainers for guidance on setting up these features for local development.
 
-### How Can We Improve DPUnity in the Future? :seedling:
-While we are proud of our accomplishments with DPUnity, there is always room for improvement and growth. In the future, we can enhance DPUnity by:
+### How Can We Improve **DPUnity** in the Future? :seedling:
+While we are proud of our accomplishments with **DPUnity**, there is always room for improvement and growth. In the future, we can enhance **DPUnity** by:
 1. **Enhancing the Safe Map feature** by incorporating real-time data, such as _campus security alerts and crime statistics_, to provide a more comprehensive and accurate view of safety on campus.
-2. **Developing a mobile app** to make DPUnity _more accessible on-the-go_. This would enable students to _easily report incidents and access support resources_ from their smartphones or tablets.
+2. **Developing a mobile app** to make **DPUnity** _more accessible on-the-go_. This would enable students to _easily report incidents and access support resources_ from their smartphones or tablets.
 3. **Integrating a live chat feature**, where students can connect with trained peer counselors and mental health professionals in real-time. This would provide _immediate support and guidance_ for those who may be hesitant to seek help in person.
-4. **Developing event notification system** _allows on-campus clubs and organizations to share their social events and activities with students on the DPUnity platform_. Our website will sends the message through email to inform students the upcoming event on campus.
+4. **Developing event notification system** _allows on-campus clubs and organizations to share their social events and activities with students on the **DPUnity** platform_. Our website will sends the message through email to inform students the upcoming event on campus.
 
 ### Installation & set up :desktop_computer:
 1. Clone the repository: `git clone https://github.com/PhuocOng/Hackathon-WICS.git`
