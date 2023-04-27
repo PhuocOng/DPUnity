@@ -1,5 +1,5 @@
 # ![Demo GIF](https://github.com/PhuocOng/Hackathon-WICS/blob/main/Main-Application/public/image/gif-for-readme.gif "Project Demo")DPUnity Website
-![Logo](https://github.com/PhuocOng/Hackathon-WICS/blob/main/Main-Application/public/image/coding%20gif.gif)
+![Logo](https://github.com/PhuocOng/Hackathon-WICS/blob/main/Main-Application/public/image/background_for_readme.png)
 
 ## :arrow_right: Access our website using this link:
 
