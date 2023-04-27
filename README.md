@@ -1,4 +1,4 @@
-# :tiger: DPUnity Website
+# ![Demo GIF](https://github.com/PhuocOng/Hackathon-WICS/blob/main/Front-end/image/gif-for-readme.gif "Project Demo")DPUnity Website
 ![Logo](https://github.com/PhuocOng/Hackathon-WICS/blob/main/Front-end/image/background_for_readme.png)
 
 ## :arrow_right: Access our website using this link:
