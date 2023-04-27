@@ -5,7 +5,7 @@
 
 ## :star2: Inspiration 
 <img  src="https://github.com/PhuocOng/Hackathon-WICS/blob/main/Front-end/image/coding%20gif.gif?raw=true" height="230px" align="right" />
-The inspiration behind **DPUnity** comes from recognizing the need to foster a more inclusive and diverse campus environment at DePauw University. With a significant number of international students and students from various backgrounds, it is crucial to address challenges like discrimination, sexual harassment, and bias that some students may face. **DPUnity** was developed to empower students **by providing a safe, anonymous platform for reporting incidents and offering resources for navigating campus safely and accessing professional mental health support**. 
+The inspiration behind DPUnity comes from recognizing the need to foster a more inclusive and diverse campus environment at DePauw University. With a significant number of international students and students from various backgrounds, it is crucial to address challenges like discrimination, sexual harassment, and bias that some students may face. DPUnity was developed to empower students by providing a safe, anonymous platform for reporting incidents and offering resources for navigating campus safely and accessing professional mental health support. 
 
 ## :mag: What is **DPUnity**
 ### About :round_pushpin:
