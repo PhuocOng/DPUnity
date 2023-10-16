@@ -29,7 +29,7 @@ The inspiration behind <b>DPUnity</b> comes from recognizing the need to <b>fost
 
 ## :pencil: How **DPUnity** created
 ###  The challenges we faced :worried:
-As a team of **two freshmen with no prior experience in web development**, we faced numerous challenges while building **DPUnity**. These challenges were both educational and time-constrained, as we had to learn new technologies and complete the project within 14 days.
+As a team of **four freshmen with no prior experience in web development**, we faced numerous challenges while building **DPUnity**. These challenges were both educational and time-constrained, as we had to learn new technologies and complete the project within 14 days.
 _Some of the key challenges we encountered were:_
 - **Brainstorming:** Since the topic of improving inclusion and diversity is quite popular, we had to spend quite amount of time choosing the idea for the website that can create an obvious positive impact for campus climate
 - **Learning web development from scratch:** With no prior knowledge of HTML, CSS, JavaScript, and Bootstrap, we had to self-study and quickly grasp these technologies to build the front-end of our website.
